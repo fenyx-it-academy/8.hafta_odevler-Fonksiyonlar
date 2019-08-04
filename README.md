@@ -25,8 +25,8 @@ Bir sayının bölenlerinin toplamı kendine eşitse bu sayı mükemmel bir say�
 örnek çıktı: black-green-red-white-yellow
 
 11. Verilen bir listenin içindeki özgün elemanları ayırıp yeni bir liste olarak veren bir fonksiyon yazınız.
-Örnek girdi : [1, 2, 3, 4, 5, 6, 7, 8, 9]
-Örnek çıktı : [2, 4, 6, 8]
+Örnek Liste : [1,2,3,3,3,3,4,5,5]
+Özgün Liste : [1, 2, 3, 4, 5]
 
 12. Verilen inputların tersten de aynı olup olmadığını kontrol eden bir fonksiyon yazınız.
 örnek: madam, taco cat, utrecht
