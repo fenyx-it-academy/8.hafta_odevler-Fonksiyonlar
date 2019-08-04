@@ -1,4 +1,4 @@
-# 8.Hafta-Ödevler
+# 8.Hafta Ödevler
 
 1. Asal sayi olup olmadigini kontrol eden fonksiyon yazınız.
 
