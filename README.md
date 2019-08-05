@@ -5,7 +5,7 @@
 2. Bir sayinin tam bolenlerini bulan fonksiyon yazınız.
 
 3. 1'den 1000'e kadar olan sayılardan mükemmel sayı olanları ekrana yazdırın. Bunun için bir sayının mükemmel olup olmadığını dönen bir tane fonksiyon yazın.
-Bir sayının bölenlerinin toplamı kendine eşitse bu sayı mükemmel bir sayıdır. Örnek olarak 6 mükemmel bir sayıdır (1 + 2 + 3 = 6).
+Bir sayının, kendisi haric pozitif tam bolenleri toplami o sayiya esit ise mukemmel sayidir. Örnek olarak 28 mükemmel bir sayıdır (1+2+4+7+14=28).
 
 4. Kullanıcıdan 2 tane sayı alarak bu sayıların en büyük ortak bölenini (EBOB) dönen bir tane fonksiyon yazın.
 
