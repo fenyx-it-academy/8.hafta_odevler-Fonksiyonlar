@@ -6,4 +6,4 @@ def prime(number):
             return f"{number} is not prime number"
     return f"{number} is prime number"
                 
-print(prime())
+print(prime(3))
