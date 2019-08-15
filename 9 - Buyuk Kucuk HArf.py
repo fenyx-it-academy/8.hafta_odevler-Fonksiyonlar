@@ -12,7 +12,7 @@ def harfsayisi(kelime):
         else:
             buyuktoplam+=i
 
-    return kucuktoplam,buyuktoplam
+    return len(kucuktoplam),len(buyuktoplam)
 while True:
     a = input("Lutfen Kelimeyi Giriniz : ")
-    print("Buyuk Ve Kucuk HArfler : ",harfsayisi(a),"\n")
+    print("Kucuk Ve Buyuk HArf Sayilari : ",harfsayisi(a),"\n")
