@@ -1,16 +1,11 @@
-
 def Listeayiklama():
 
-    ornek_liste = [1,2,3,3,3,3,4,5,5]
+    inp= input("Lutfen Listenizi Giriniz")
+
+    inp= list(inp)
 
     ozgun_liste = []
 
-    ozgun_liste = set(ornek_liste)
+    ozgun_liste = set(inp)
 
     return ozgun_liste
-
-
-
-
-
-print(Listeayiklama())
