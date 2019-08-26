@@ -1,0 +1,7 @@
+def kelime_siralama():
+    kelime_sirasi= input("Lutfen (-)Tire ile ayirarak birden fazla kelime giriniz:")
+    kelimeler=kelime_sirasi.split("-")
+    kelimeler.sort()
+    print(*kelimeler,sep="-")
+
+kelime_siralama()
