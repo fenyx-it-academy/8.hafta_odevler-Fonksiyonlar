@@ -2,15 +2,12 @@
 ##Asal sayi olup olmadigini kontrol eden fonksiyon yazınız.
 
 def asal(sayi):  
-  if sayi==1:
-    return "Asal degil"
-  if sayi==2:
-    return "Asal"            # asal adinda sayi parametresi olan bir fonksiyon tanimladik.
+  if sayi==1 or sayi==2::
+    return "Asal"          # asal adinda sayi parametresi olan bir fonksiyon tanimladik.
   for i in range(2,sayi-1): #Kendisinden baska bir sayi ile bolunup bolunmedigini kontrol etmek icin 2den sayinin 1 eksigine kadar-
     if sayi%i==0:           # tum sayilarla bolumunden kalan 0 ise:
       return "Asal degil"   #Asal degil olarak dondur.
-    else:                   # degilse
-      return "Asal sayi"    # Asal sayi stringini dondur.
+    return "Asal sayi"     # Asal sayi stringini dondur.
 sayi=2
 print(sayi, "nin asallik durumu: ",asal(sayi))    # Fonksiyonu 10 argumani ile dondurduk.
 
