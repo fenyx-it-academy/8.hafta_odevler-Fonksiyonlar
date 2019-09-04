@@ -15,4 +15,5 @@ def tersi(*args):
 
     return sonuc
 
+print(tersi("madam","taco cat","utrecht"))
 
