@@ -9,10 +9,14 @@ def harfsayisi(kelime):
     for i in kelime:
         if i in kucuk:
             kucuktoplam+=i
+
+        elif i in buyuk:
+            buyuktoplam += i
         else:
-            buyuktoplam+=i
+            print("Bosluk ve ozel karakter iceremez !")
 
     return len(kucuktoplam),len(buyuktoplam)
+
 while True:
     a = input("Lutfen Kelimeyi Giriniz : ")
     print("Buyuk Ve Kucuk HArf Sayisi : ",harfsayisi(a),"\n")
