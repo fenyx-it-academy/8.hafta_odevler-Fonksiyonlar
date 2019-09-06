@@ -45,13 +45,14 @@ def EKOK():
         liste3=set(liste1)
         liste4=set(liste2)
         if liste3.isdisjoint(liste4)==True:
-            print("Girilen iki sayinin EKOK degeri yoktur")
+            print("girmis oldugunuz iki sayinin EKOK={}".format(numara1*numara2))
             quit()
         else:
             liste5=liste3.intersection(liste4)
             liste6=list(liste5)
             liste6.sort()
-            print("girmis oldugunuz iki sayinin EKOK={}".format(liste6[0]))
+            uzunluk=len(liste6)
+            print("girmis oldugunuz iki sayinin EKOK={}".format((numara1*numara2)/liste6[uzunluk-1]))
             quit()
 
 EKOK()
