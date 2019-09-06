@@ -1,17 +1,13 @@
-def ters():
-    while True:
-        deger=input("lutfen bir deger giriniz")
-        if deger==deger[::-1]:
-            print("True")
-        else:
-            print("False")
-        cevap=input("Denemey devam etmek istiyormusunuz: E/H")
-        if cevap=="E":
+def ters(*deger):
+    liste = []
+    for i in deger:
+        print(type(i))
+        if i==i[::-1]:
+            liste.append("True")
             continue
-        elif cevap=="H":
-            quit()
         else:
-            print("yanlis bir secim yaptiniz")
-            quit()
+            liste.append("False")
+            continue
+    return print(liste)
 
-ters()
+ters("selma","elma","kasik","saat","madam","lal")
