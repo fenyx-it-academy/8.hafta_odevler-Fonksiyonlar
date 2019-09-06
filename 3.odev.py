@@ -1,23 +1,12 @@
 def mukemmelsayi():
-    while True:
-        try:
-            numara = int(input("lutfen bir sayi giriniz\t:"))
-        except ValueError:
-            print("Lutfen girdiginiz degeri kontrol ediniz")
-            continue
-        except NameError:
-            print("Lutfen girdiginiz degeri kontrol ediniz")
-            continue
-
-        if numara < 1:
-            print("girdiginiz sayi en az 1 olmalidir")
-            continue
+    sayilar=[]
+    for i in range(0,1001):
         liste=0
         bolunen = 1
 
         while True:
-            if bolunen < numara:  # girilen sayidan bir eksigine kadar bolme islemini yapar
-                sonuc = numara % bolunen
+            if bolunen < i:  # girilen sayidan bir eksigine kadar bolme islemini yapar
+                sonuc = i % bolunen
                 if sonuc == 0:
                     liste+=bolunen
                     bolunen+=1
@@ -26,11 +15,14 @@ def mukemmelsayi():
                     bolunen+=1
                     continue
             else:
-                if numara==liste:
-                    print("girdiginiz sayi mukemmel bir sayidir")
-                    quit()
+                if i==liste:
+                    sayilar.append(i)
+                    break
                 else:
-                    print("Girdiginiz sayi mukemmel bir sayi degildir")
-                    quit()
-
+                    break
+        if i <1001:
+            continue
+        else:
+            break
+    return print(sayilar)
 mukemmelsayi()
