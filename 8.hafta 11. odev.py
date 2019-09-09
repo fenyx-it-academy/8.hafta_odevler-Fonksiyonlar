@@ -4,11 +4,11 @@ print('b.')
 Örnek Liste : [1,2,3,3,3,3,4,5,5] Özgün Liste : [1, 2, 3, 4, 5]
 ornek_liste = [1,2,3,3,3,3,4,5,5]
 '''
-def ozgun():
+def ozgun(*args):
     veri=input("ozgun liste olusturmak istediginiz verinizi giriniz : ")
-    ozgun_list=[]       # bos listemizi olusturduk
-    for i in veri:      # verimizdeki degerlere for ile baktik
-        if i not in ozgun_list:  # tekrar edenlerri ayirdik...listemizde olmayanlari ekledik
-            ozgun_list.append(i)
-    return ozgun_list
+    ozgun_list=[]                   # bos listemizi olusturduk
+    for i in veri.split(','):
+        ozgun_list.append(i)
+    ozgun_list=set(ozgun_list)      # listemizi kumeye cevirdik icindeki tekrar edenleri ayirdik
+    return list(ozgun_list)
 print(ozgun())
