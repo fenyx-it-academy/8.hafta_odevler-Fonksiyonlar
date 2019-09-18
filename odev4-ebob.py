@@ -5,10 +5,10 @@ def ebob(sayi1,sayi2):
 #sayilarimizi kaydedecegimiz bos listeler actik
 #for donguleri ile sayilari tam bolen sayilari bulduk
 #ve bunlari actigimiz listelere kaydettik
-    for i in range(2,sayi1):
+    for i in range(2,sayi1+1):
         if sayi1%i==0:
             ilksayi.append(i)
-    for i in range(2,sayi2):
+    for i in range(2,sayi2+1):
         if sayi2%i==0:
             ikincisayi.append(i)
 #iki listedeki sayilari karsilastirarak ayni olan sayilari bulduk
@@ -20,4 +20,4 @@ def ebob(sayi1,sayi2):
 #bunlarin icinde en buyugunu print olarak ekrana verddik
 
     print(max(ebob))
-ebob(12,18)
+ebob(12,48)
