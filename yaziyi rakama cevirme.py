@@ -1,4 +1,4 @@
-#Kullanici inputu ile yaziyla verilen sayinin sayisal degerini bulunuz
+#Kullanici inputu ile ggggyaziyla verilen sayinin sayisal degerini bulunuz
 #ornek elli yedi----->57
 
 
